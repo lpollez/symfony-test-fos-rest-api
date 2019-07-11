@@ -1,0 +1,8 @@
+# Read the documentation: https://symfony.com/doc/master/bundles/FOSRestBundle/index.html
+fos_rest:
+  view:
+    formats: { json: true, xml: false, rss: false }
+  serializer:
+    serialize_null: true
+  body_converter:
+    enabled: true
